@@ -6,12 +6,12 @@ Library          SeleniumLibrary
 
 Library          DataDriver    file=../../data/home_page/home_page.csv
 
-Resource         ../../resources/common.robot
-Resource         ../../resources/home_page/home_page.robot
+Resource         ../../resources/common.resource
+Resource         ../../resources/home_page/home_page.resource
 
 Suite Setup      Create Chrome Options
 
-Test Setup       Navigate to Home Page
+Test Setup       Navigate to Home Page   
 Test Teardown    Close All Browsers
 
 Test Tags        Home Page
