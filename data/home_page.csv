@@ -1,0 +1,5 @@
+*** Test Cases ***;${selection_id};${vehicle_type};${next_page_text};[Tags];[Documentation]
+Automobile Selection;${AUTOMOBILE_SELECTION_ID};Automobile;Automobile Insurance;Automobile;Test Case to test the Automobile selection
+Truck Selection;${TRUCK_SELECTION_ID};Truck;Truck Insurance;Truck;Test Case to test the Truck selection
+Motorcycle Selection;${MOTORCYCLE_SELECTION_ID};Motorcycle;Motorcycle Insurance;Motorcycle;Test Case to test the Motorcycle selection
+Camper Selection;${CAMPER_SELECTION_ID};Camper;Camper Insurance;Camper;Test Case to test the Camper selection
