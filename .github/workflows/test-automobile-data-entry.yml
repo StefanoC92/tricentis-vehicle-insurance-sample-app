@@ -1,13 +1,13 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
-name: Tricent Vehicle Insurance Test Project - Main pipeline
+name: Tricent Vehicle Insurance Test Project - Test Automobile Data Entry pipeline
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "test-automobile-data-entry" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "test-automobile-data-entry" ]
 
 permissions:
   contents: read
@@ -36,4 +36,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with Robot Framework
       run: |
-        robot --outputdir results/ --pythonpath . tests/
+        robot --outputdir results/ --pythonpath . tests/automobile_data_entry_page

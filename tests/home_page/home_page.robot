@@ -4,10 +4,10 @@ Documentation    Test Suite for testing the Home Page
 Library          Collections
 Library          SeleniumLibrary
 
-Library          DataDriver    file=../data/home_page.csv
+Library          DataDriver    file=../../data/home_page/home_page.csv
 
-Resource         ../resources/common.robot
-Resource         ../resources/home_page.robot
+Resource         ../../resources/common.robot
+Resource         ../../resources/home_page/home_page.robot
 
 Suite Setup      Create Chrome Options
 
