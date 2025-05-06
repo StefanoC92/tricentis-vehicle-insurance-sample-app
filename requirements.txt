@@ -1,4 +1,7 @@
 robotframework
 robotframework-seleniumlibrary
 robotframework-datadriver
+opencv-python
+visual-comparison
+
 
